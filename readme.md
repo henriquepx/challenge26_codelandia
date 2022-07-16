@@ -8,3 +8,7 @@
 ## Sobre
 
 <p>Realizando o Desafio 26 da Comunidade Codelândia. Projeto totalmente responsivo!
+
+| Desktop | Android  |
+| ------------------- | ------------------- |
+| <img src="https://github.com/henriquepx/challenge26_codelandia/blob/main/assets/desktop.png"> | <img src="https://github.com/henriquepx/challenge26_codelandia/blob/main/assets/mobile.png"> |
