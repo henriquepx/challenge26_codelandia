@@ -1,0 +1,47 @@
+@import "./variaveis";
+
+.arts {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+  margin-top: 5rem;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  .imgs {
+    display: flex;
+    column-gap: 3rem;
+  }
+  .words {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 13rem;
+    h1 {
+      font-family: $fonte;
+      font-size: 2.5rem;
+      font-weight: 500;
+
+      margin-bottom: 1rem;
+
+      max-width: 13ch;
+    }
+    button {
+      font-family: $fonte;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      cursor: pointer;
+      color: $cor-branco;
+      border-radius: 7px;
+
+      width: 180px;
+      padding: 0.5rem 3rem;
+      background: $cor-blue;
+    }
+  }
+}

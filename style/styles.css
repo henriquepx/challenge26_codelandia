@@ -1,0 +1,511 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  scroll-behavior: smooth;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+header {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1.8rem;
+}
+
+header h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+header form {
+  width: 100%;
+  max-width: 644px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header form input {
+  width: 640px;
+  padding: 0.5rem 3rem;
+  background-color: #f9f9f9;
+  outline: none;
+}
+
+header form button {
+  padding: 0.5rem 1rem;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  border: none;
+}
+
+header .entrar {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+  border-radius: 7px;
+  padding: 0.5rem 3rem;
+  background: #3772ff;
+}
+
+main {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5rem;
+}
+
+main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 2.5rem;
+}
+
+main .container h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  max-width: 19ch;
+}
+
+main .container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #737373;
+}
+
+main .container button {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ebebeb;
+  cursor: pointer;
+  border-radius: 7px;
+  width: 180px;
+  padding: 0.5rem 3rem;
+  background: #3772ff;
+}
+
+main .container .dados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 2.5rem;
+          column-gap: 2.5rem;
+}
+
+main .container .dados div {
+  text-align: center;
+}
+
+main .container .dados div h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+main .container .dados div p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #737373;
+}
+
+.arts {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.arts .imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+}
+
+.arts .words {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 13rem;
+}
+
+.arts .words h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  max-width: 13ch;
+}
+
+.arts .words button {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+  border-radius: 7px;
+  width: 180px;
+  padding: 0.5rem 3rem;
+  background: #3772ff;
+}
+
+.artists {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.artists h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.artists .pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.artists .pictures div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.artists .pictures div h1 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #f9f9f9;
+}
+
+.artists .pictures div h3 {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #ebebeb;
+}
+
+.artists .pictures div img {
+  width: 390px;
+}
+
+footer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 4rem auto;
+}
+
+footer h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+footer div nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+}
+
+footer div nav li a {
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #0c0c0c;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+}
+
+footer div nav li a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 300px) and (max-width: 766px) {
+  header {
+    max-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0rem 2rem;
+  }
+  header form {
+    display: none;
+  }
+  header h1 {
+    font-size: 1.4rem;
+  }
+  header input {
+    display: none;
+  }
+  header button {
+    padding: 0.5rem 1.5rem;
+  }
+  main {
+    max-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 2.5rem;
+  }
+  main .container {
+    row-gap: 0.5rem;
+  }
+  main .container h1 {
+    font-size: 1.5rem;
+  }
+  main .container p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  main .container button {
+    width: 280px;
+    padding: 0.5rem 3rem;
+    margin-bottom: 2.5rem;
+  }
+  main .container .dados div h2 {
+    font-size: 1.5rem;
+  }
+  main img {
+    display: none;
+  }
+  .arts {
+    max-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .arts .imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 1rem;
+  }
+  .arts .imgs img {
+    width: 280px;
+  }
+  .arts .words {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0rem;
+  }
+  .arts .words h1 {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    max-width: 50ch;
+  }
+  .arts .words button {
+    font-family: "Inter", sans-serif;
+    font-size: 0.6rem;
+    width: 280px;
+  }
+  .artists {
+    max-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+  }
+  .artists h1 {
+    font-size: 1.5rem;
+  }
+  .artists .pictures {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 0.8rem;
+  }
+  .artists .pictures div img {
+    width: 280px;
+  }
+  footer {
+    max-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 2rem auto;
+  }
+  footer h1 {
+    text-align: center;
+  }
+  footer div nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 0.5rem;
+            column-gap: 0.5rem;
+  }
+  footer div nav li a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1025px) {
+  header {
+    max-width: 720px;
+  }
+  header form {
+    width: 60%;
+  }
+  main {
+    max-width: 720px;
+  }
+  main .container {
+    row-gap: 1rem;
+  }
+  main .container h1 {
+    font-size: 2.5rem;
+    max-width: 16ch;
+  }
+  main .container p {
+    font-size: 1.1rem;
+  }
+  main .container .dados {
+    margin-top: 1rem;
+  }
+  main .container .dados div h2 {
+    font-size: 1.7rem;
+  }
+  main img {
+    width: 40%;
+  }
+  .arts {
+    max-width: 720px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .arts .words {
+    margin-left: 0rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .arts .words h1 {
+    max-width: 50ch;
+    margin-top: 2rem;
+  }
+  .arts .words button {
+    width: 210px;
+  }
+  .artists {
+    max-width: 720px;
+  }
+  .artists h1 {
+    font-size: 2.5rem;
+  }
+  .artists .pictures {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .artists .pictures div img {
+    width: 200px;
+  }
+  footer {
+    max-width: 720px;
+    margin: 4rem auto;
+  }
+  footer div nav {
+    -webkit-column-gap: 2rem;
+            column-gap: 2rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

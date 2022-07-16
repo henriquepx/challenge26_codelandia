@@ -1,0 +1,76 @@
+@import "../components/variaveis";
+
+@media (min-width: 767px) and (max-width: 1025px) {
+  header {
+    max-width: 720px;
+    form {
+      width: 60%;
+    }
+  }
+
+  main {
+    max-width: 720px;
+    .container {
+      row-gap: 1rem;
+      h1 {
+        font-size: 2.5rem;
+        max-width: 16ch;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+      .dados {
+        margin-top: 1rem;
+        div {
+          h2 {
+            font-size: 1.7rem;
+          }
+        }
+      }
+    }
+    img {
+      width: 40%;
+    }
+  }
+
+  .arts {
+    max-width: 720px;
+    flex-wrap: wrap;
+    .words {
+      margin-left: 0rem;
+      align-items: center;
+      h1 {
+        max-width: 50ch;
+        margin-top: 2rem;
+      }
+      button {
+        width: 210px;
+      }
+    }
+  }
+
+  .artists {
+    max-width: 720px;
+    h1 {
+      font-size: 2.5rem;
+    }
+    .pictures {
+      justify-content: space-between;
+      div {
+        img {
+          width: 200px;
+        }
+      }
+    }
+  }
+
+  footer {
+    max-width: 720px;
+    margin: 4rem auto;
+    div {
+      nav {
+        column-gap: 2rem;
+      }
+    }
+  }
+}

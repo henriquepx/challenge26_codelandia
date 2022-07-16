@@ -1,0 +1,51 @@
+@import "./variaveis";
+
+header {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 1.8rem;
+  h1 {
+    font-family: $fonte;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  form {
+    width: 100%;
+    max-width: 644px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input {
+      width: 640px;
+      padding: 0.5rem 3rem;
+      background-color: $cor-branco2;
+      outline: none;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      background-color: $cor-branco2;
+      cursor: pointer;
+      border: none;
+    }
+  }
+  .entrar {
+    font-family: $fonte;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    color: $cor-branco;
+    border-radius: 7px;
+
+    padding: 0.5rem 3rem;
+    background: $cor-blue;
+  }
+}
